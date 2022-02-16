@@ -1,0 +1,247 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#homePageVideo{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+ 
+body{
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav{
+  height: 11.5%;
+}
+
+.iconNav{
+  color: orange;
+}
+
+#navLink{
+  color: #666666;
+}
+.navBack{
+  background-color: black;
+}
+
+
+ul.nav a:hover { 
+  color: #ffdb00;
+ }
+ 
+ .navbar-toggler {
+  border-color: #666666;
+ }
+
+ .container-fluid{
+  background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+
+ .navbar{
+  padding-right:0px;
+  padding-left:0px;
+
+ }
+ #txtwriter {
+  font-weight: bold;
+  font-size: 300%;
+  } 
+
+.position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+ 
+  @media (min-width: 1200px) {
+  #NavSmall  
+    { display: none;  }
+  }
+  
+  @media (max-width: 1201px) {
+    #NavBig     
+    { display: none; }
+  }
+  
+#campusImg {
+  height: 300px ;
+  color: white ;
+  z-index: -1 ;
+}
+
+#campusImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#title{
+  width: 60%;
+  text-align: center;
+  border-bottom: 2px solid orange;
+  margin: auto;
+  margin-bottom: 70px;
+  line-height: 2;
+}
+
+#section-heading{
+  text-align: center;
+  color: #ff1a66;
+}
+
+.section-p{
+  padding: 5% 12%;
+  font-family: 'Dancing Script', cursive;
+  font-size: x-large;
+}
+
+.card-columns{
+  padding: 3% 5%;
+}
+
+section{
+  margin-top: 80px;
+
+}
+
+@media (min-width:576px) {
+  .card-deck .card {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+.card-title {
+  text-align: justify !important;
+}
+  
+.card .card-title span {
+  color: #35687e;
+}
+  
+.card-body div {
+  width: 100% ;
+  height: 100px;
+  line-height: 100px;
+}
+
+.card-deck {
+  padding: 5px 5%;
+  margin-top: 0%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#cardBody{
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+
+#cardBodyPicture{
+  vertical-align: middle; 
+  max-width: 90%; 
+  max-height: 100%;
+}
+
+#cardPicture{
+  vertical-align: middle;
+  max-width: 90%;
+  max-height: 100%;
+}
+
+#maps{
+padding: 5% 10%;
+}
+
+#footerPic {
+  padding: 50px;
+  background-size: cover;
+  background-position: center;
+}
+
+#footerText {
+  color: white;
+  font-size: 250%;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 2px 1px #000000;
+  transform: scaleY(1.3);
+}
+
+#roundPic{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#roundBorder{
+  border-radius: 50%;
+  border: 20px solid #f0f0f0;
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+  margin: 10px auto;
+  box-shadow: 0 0 10px #666;
+}
+
+#roundPicTxt{
+  color: white;
+  font-weight: bold;
+  -moz-user-select: none;
+  text-shadow: 1px 1px black;
+  margin: 0;
+  user-select: none;
+  text-align: center;
+  -ms-user-select: none;
+  font-size: small;
+  -webkit-user-select: none;
+  width: 200px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+.media img {
+  max-width: 100%;
+  min-height: 100px;
+  filter: opacity(70%);
+}
+
+.media img:hover {
+  filter: none;
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+.media .row {
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.media .image-container {
+  overflow: hidden;
+}
+
+.media .image-container:hover {
+  box-shadow: 0 0 10px #000;
+}
+
+.media .image-container {
+  border-radius: 5px;
+}

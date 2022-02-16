@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Novosti</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/4dba7f1c4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="stuff/css/styles.css">
+    <link rel="stylesheet" href="stuff/css/animate.css">
+    <link rel="stylesheet" href="stuff/css/jquery.fancybox.min.css">
+  </head>
+  <body >
+    
+    <nav class="navbar navbar-dark navbar-expand-md navBack fixed-top sticky-top" >
+        <div class="container-fluid ">
+          <a class="navbar-brand "  href="pocetna.html">
+            <img src="stuff\img\Algebra-logo.png" height="60px"  >
+          </a>
+          <button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li role="presentation" class="nav-item"><a class="nav-link active text-white" href="pocetna.html"><i class="fas fa-home iconNav"></i> Početna</a></li>
+                    <li role="presentation" class="nav-item"><a class="nav-link " id="navLink" href="O nama.html"><i class="far fa-comments iconNav"></i> O nama</a></li>
+                    <li role="presentation" class="nav-item"><a class="nav-link " id="navLink" href="Novosti.html"><i class="fas fa-info-circle iconNav"></i> Novosti</a></li>
+                    <li role="presentation" class="nav-item"><a class="nav-link " id="navLink" href="Nastavni plan.html"><i class="fas fa-info-circle iconNav"></i> Nastavni plan</a></li>
+                    <li role="presentation" class="nav-item"><a class="nav-link " id="navLink" href="#" data-toggle="modal" data-target="#contact-form"><i class="fas fa-envelope iconNav"></i> Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" role="dialog" tabindex="-1" id="contact-form">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title"><i class="fa fa-envelope" style="margin-right: 5px;color: rgb(0,123,255);"></i>Kontaktirajte nas</h4><button type="button" class="close d-none" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+              <div
+                  class="modal-body">
+                  <form id="contact-form-fields" method="post" action="http://www.fulek.com/VUA/SUPIT/ContactUs"><label for="contact-name">Puno ime:</label><input class="form-control" type="text" id="contact-name" name="name" required=""><label for="contact-email">E-mail:</label><input class="form-control" type="email" id="contact-email" name="email"
+                          required=""><label id="contact-name" name="name">Važnost poruke:</label><select class="form-control" id="contact-importance" name="importance" required=""><option value="visoka" selected="">Visoka</option><option value="niska">Niska</option></select>
+                      <label
+                          for="contact-message">Vaša poruka:</label><textarea class="form-control form-control-lg" id="contact-message" for="contact-name" required="" name="message"></textarea></form>
+                  <div class="form-group" style="margin-bottom: 0;"><label class="align-middle" style="margin-bottom: 0;margin-right: 5px;" for="contact-newsletter">Primaj newsletter:</label><input type="checkbox" id="contact-newsletter" class="align-middle" name="newsletter"></div>
+          </div>
+          <div class="modal-footer justify-content-start"><button class="btn btn-primary" type="submit" form="contact-form-fields">Pošalji</button><button class="btn btn-danger" type="button" data-dismiss="modal">Odustani</button></div>
+      </div>
+  </div>
+  </div>
+
+  <h1 id="title" class="slideInUp animated">Novosti</h1>
+  <div style="padding: 3% 0;">
+    <div class="container zoomIn animated">
+        <div class="row justify-content-center">
+            <div class="col-auto col-xl-4">
+                <a href="Novosti 1.html">
+                    <div id="roundBorder"><img id="roundPic" src="stuff/img/novost1.jpg">
+                        <div class="centered" >
+                            <p  id="roundPicTxt" style="color: yellow !important;">28.8.2019.</p>
+                            <p id="roundPicTxt">Student Josip Stanešić 12. je sistemaš svijeta i dobitnik medalje izvrsnosti na natjecanju WorldSkills Kazan 2019.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-auto col-xl-4">
+                <a href="Novosti 2.html">
+                    <div id="roundBorder"><img id="roundPic" src="stuff/img/novost2.jpg">
+                        <div class="centered">
+                            <p  id="roundPicTxt" style="color: yellow !important;">22.7.2019.</p>
+                            <p id="roundPicTxt" >Nagrađujemo izvrsnost: Objavljujemo dobitnike stipendijskog natječaja šk.god. 2018./2019.!<br></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-auto col-xl-4">
+                <a href="Novosti 3.html">
+                    <div id="roundBorder"><img id="roundPic" src="stuff/img/novost3.jpg">
+                        <div class="centered">
+                            <p id="roundPicTxt" style="color: yellow !important;">18.4.2019.</p>
+                            <p id="roundPicTxt">Digitalno junior ljeto<br></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+   
+    <footer id="footerPic" style="background-image: url(&quot;stuff/img/zaiskri-bg.jpg&quot;);" >
+        <p id="footerText">BUDI IZVRSTAN U ONOM ŠTO VOLIŠ</p>
+        <p id="footerText" style="color: #ff1a66 !important;">ZAISKRI</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"  ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"  ></script>    
+    <script src="stuff/js/jquery.fancybox.min.js"></script>
+    <script src="stuff/js/smooth-scrolling.js"></script>
+  </body>
+</html>
